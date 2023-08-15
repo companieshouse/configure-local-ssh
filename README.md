@@ -7,7 +7,8 @@ The following Docker build arguments are supported
 
 | Argument        | Default                                                                   | Description                                          |
 | --------------- | ------------------------------------------------------------------------- | ---------------------------------------------------- |
-| ARTIFACTORY_URL |                                                                           | Artifactory URL used by the `configure-maven` script |
+| SSH_PRIVATE_KEY |                                                                           | Key as passed in by user to be used by container |
+| SSH_PRIVATE_KEY_PASSPHRASE |                                                                | Passphrase passed in if required |
 
 ## Building the image
 
